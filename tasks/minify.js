@@ -1,6 +1,6 @@
 var utils = require('./_utils'),
   fs = require('fs'),
-  uglify = require('uglify-js')
+  uglify = require('uglify-es')
 
 module.exports = function(options) {
 
@@ -12,8 +12,11 @@ module.exports = function(options) {
   var sourcePath = `${options.base}${global.library}.js`,
     outputPath = `${options.base}${global.library}.min.js`,
     code = fs.readFileSync(sourcePath, 'utf8'),
-    output = uglify.minify(code)
-
+    output = uglify.minify(code, {
+      parse: {},
+      compress: false,
+      mangle: false
+    })
   /**
    * Create a promise based on the result of the uglify output
    */
