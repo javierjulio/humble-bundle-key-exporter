@@ -21,7 +21,7 @@ const getKeysForCurrentPage = () => {
       platform: row.querySelector('.platform :first-child').title,
       name: row.querySelector('.game-name h4').textContent,
       bundle: row.querySelector('.game-name p').textContent,
-      bundle_url: row.querySelector('.game-name a').href,
+      bundle_url: row.querySelector('.game-name a').href
     }
   })
 }
@@ -32,7 +32,7 @@ const setNextPage = async () => {
   const page = document.querySelector('.js-jump-to-page.current + .js-jump-to-page')
   if (page !== null) {
     page.click()
-    await delayOf(100);
+    await delayOf(100)
   }
 }
 
@@ -46,26 +46,8 @@ const getAllKeys = async () => {
   }
 }
 
-/**
- * An awesome script
- */
-// export default class {
-//   constructor() {
-//     // this.name = name
-//     // this.text = text
-//   }
-//   run() {
-    // return helpers.absoluteUrl(href)
-    setFirstPage()
-      .then(hideRedeemed)
-      .then(getAllKeys)
-      .then((data) => JSON.stringify(data, null, 2))
-      .then((json) => downloadFile(json, 'humble-bundle-keys.json'))
-  // }
-  // get message() {
-  //   return `${this.text} ${this.name}!`
-  // }
-  // set message(text) {
-  //   this.text = helpers.trim(text)
-  // }
-// }
+setFirstPage()
+  .then(hideRedeemed)
+  .then(getAllKeys)
+  .then((data) => JSON.stringify(data, null, 2))
+  .then((json) => downloadFile(json, 'humble-bundle-keys.json'))
