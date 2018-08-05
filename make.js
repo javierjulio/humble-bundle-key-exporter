@@ -1,5 +1,5 @@
 // name of the library
-global.library = 'Greeter'
+global.library = 'HumbleBundleScraper'
 
 var command = process.argv[2],
   utils   = require('./tasks/_utils'),
