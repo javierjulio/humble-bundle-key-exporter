@@ -49,23 +49,23 @@ const getAllKeys = async () => {
 /**
  * An awesome script
  */
-export default class {
-  constructor() {
-    // this.name = name
-    // this.text = text
-  }
-  run() {
+// export default class {
+//   constructor() {
+//     // this.name = name
+//     // this.text = text
+//   }
+//   run() {
     // return helpers.absoluteUrl(href)
     setFirstPage()
       .then(hideRedeemed)
       .then(getAllKeys)
       .then((data) => JSON.stringify(data, null, 2))
       .then((json) => downloadFile(json, 'humble-bundle-keys.json'))
-  }
+  // }
   // get message() {
   //   return `${this.text} ${this.name}!`
   // }
   // set message(text) {
   //   this.text = helpers.trim(text)
   // }
-}
+// }
