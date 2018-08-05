@@ -14,9 +14,10 @@ module.exports = function(options) {
     code = fs.readFileSync(sourcePath, 'utf8'),
     output = uglify.minify(code, {
       parse: {},
-      compress: false,
+      compress: true,
       mangle: false
     })
+
   /**
    * Create a promise based on the result of the uglify output
    */
