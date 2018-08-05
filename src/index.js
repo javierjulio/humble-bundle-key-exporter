@@ -1,4 +1,4 @@
-import { delayOf, downloadFile } from './helpers/helpers'
+import { delayOf, downloadFile } from './helpers/helpers.js'
 
 const hideRedeemed = async () => {
   const checkbox = document.getElementById('hide-redeemed')
