@@ -21,22 +21,22 @@ module.exports = function(options) {
       input: './src/index.js'
     }).then( function ( bundle ) {
       bundle.generate({
-        format: 'cjs'
+        format: 'iife'
       }).then(({ code }) => {
         // convert to valid es5 code with babel
-        const result = babel.transform(
-          code,
-          {
-            moduleId: global.library,
-            moduleIds: true,
-            comments: false,
-            // presets: ['env']//,
-            plugins: ['transform-es2015-modules-umd']
-          }
-        )
+        // const result = babel.transform(
+        //   code,
+        //   {
+        //     moduleId: global.library,
+        //     moduleIds: true,
+        //     comments: false,
+        //     // presets: ['env']//,
+        //     plugins: ['transform-es2015-modules-umd']
+        //   }
+        // )
         mkdirp('./dist', function() {
           try {
-            fs.writeFileSync(`./dist/${ global.library }.js`, result.code, 'utf8')
+            fs.writeFileSync(`./dist/${ global.library }.js`, code, 'utf8')
             resolve()
           } catch (e) {
             reject(e)
