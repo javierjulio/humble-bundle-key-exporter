@@ -30,7 +30,7 @@ module.exports = function(options) {
             moduleId: global.library,
             moduleIds: true,
             comments: false,
-            presets: ['env'],
+            // presets: ['env']//,
             plugins: ['transform-es2015-modules-umd']
           }
         )

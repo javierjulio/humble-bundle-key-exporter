@@ -68,5 +68,4 @@ export default class {
   // set message(text) {
   //   this.text = helpers.trim(text)
   // }
-
 }
