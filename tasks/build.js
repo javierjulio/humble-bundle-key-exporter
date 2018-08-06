@@ -1,8 +1,8 @@
 var utils = require('./_utils'),
   rollup = require( 'rollup' ),
   mkdirp = require('mkdirp'),
-  fs = require('fs'),
-  babel = require('babel-core')
+  fs = require('fs')//,
+  // babel = require('babel-core')
 
 module.exports = function(options) {
 
