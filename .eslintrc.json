@@ -12,6 +12,6 @@
   "rules": {
     "no-console": ["off"],
     "no-undef": ["off"],
-    "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": true }]
+    "no-unused-vars": ["warn", { "vars": "all", "args": "none", "ignoreRestSiblings": true }]
   }
 }
