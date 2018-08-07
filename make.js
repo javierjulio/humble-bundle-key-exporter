@@ -1,11 +1,10 @@
 // name of the library
-global.library = 'HumbleBundleScraper'
+// global.library = 'HumbleBundleScraper'
 
 var command = process.argv[2],
   utils   = require('./tasks/_utils'),
   eslint  = require('./tasks/eslint'),
   test    = require('./tasks/test'),
-  minify  = require('./tasks/minify'),
   build   = require('./tasks/build'),
   watch   = require('./tasks/watch'),
   serve   = require('./tasks/serve')
@@ -23,14 +22,11 @@ case 'lint':
   eslint()
   break
 case 'build':
-  build()
+  eslint()
+    .then(build)
   break
 case 'watch':
   watch()
-  break
-case 'minify':
-case 'min':
-  minify()
   break
 case 'test':
   test()
@@ -38,8 +34,7 @@ case 'test':
 default:
   eslint()
     .then(build)
-    .then(minify)
-    .then(test)
+    // .then(test)
     .then(function() {
       utils.print('Project successfully compiled!', 'confirm')
     })

@@ -46,8 +46,11 @@ const getAllKeys = async () => {
   }
 }
 
-setFirstPage()
-  .then(hideRedeemed)
-  .then(getAllKeys)
-  .then((data) => JSON.stringify(data, null, 2))
-  .then((json) => downloadFile(json, 'humble-bundle-keys.json'))
+export function run() {
+  // TODO: only execute if current page is /home/keys
+  setFirstPage()
+    .then(hideRedeemed)
+    .then(getAllKeys)
+    .then((data) => JSON.stringify(data, null, 2))
+    .then((json) => downloadFile(json, 'humble-bundle-keys.json'))
+}
