@@ -20,14 +20,7 @@ module.exports = function(config) {
     browsers: ['ChromeHeadless'],
     reporters: ['progress', 'coverage'],
     preprocessors: {
-      '../dist/*': ['coverage'],
-      'test/**/*.js': ['babel']
-    },
-    'babelPreprocessor': {
-      options: {
-        presets: ['env'],
-        sourceMap: 'inline'
-      }
+      '../dist/*': ['coverage']
     },
     coverageReporter: {
       dir: './coverage/'
