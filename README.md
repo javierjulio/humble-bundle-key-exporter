@@ -11,7 +11,7 @@ I've been a HumbleBundle supporter since it first started. As you might imagine,
 - Go to [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) and click the bookmark
 - Once parsing is complete, a file named `humble-bundle-keys.json` will be downloaded
 
-Note: the code is written in **ES6** using async/await. Supported browsers: Safari 10.1+, Chrome 55+, Firefox 52+ and Edge 15+.
+Note: the source code is in ES6 only. This will work in Safari 10.1+, Chrome 55+, Firefox 52+ and Edge 15+.
 
 ## Development
 
