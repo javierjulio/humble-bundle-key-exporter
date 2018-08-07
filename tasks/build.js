@@ -4,7 +4,7 @@ var utils = require('./_utils')//,
   // fs = require('fs')//,
   // babel = require('babel-core')
 
-var eslint = require('./eslint')
+// var eslint = require('./eslint')
 
 module.exports = function(options) {
 
