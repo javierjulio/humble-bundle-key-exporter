@@ -1,9 +1,9 @@
 # humble-bundle-scraper
 
-A tool to generate a bookmarklet to scrape the page for you Humble Bundle keys into an exportable list as JSON.
+A bookmarklet to scrape the page for your unredeemed Humble Bundle keys into a JSON list.
 
 ## Todo List
 
-- [ ] rename repo to humble-bundle-key-scraper
+- [x] rename repo to humble-bundle-key-scraper
 - [ ] update run() method to only execute if current page is /home/keys
-- [ ] update loader.js to only run code if HumbleBundleKeyScraper is undefined
+- [x] update loader.js to only run code if HumbleBundleKeyScraper is undefined
