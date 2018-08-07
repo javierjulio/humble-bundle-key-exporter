@@ -6,17 +6,13 @@ var command = process.argv[2],
   eslint  = require('./tasks/eslint'),
   test    = require('./tasks/test'),
   build   = require('./tasks/build'),
-  watch   = require('./tasks/watch'),
-  serve   = require('./tasks/serve')
+  watch   = require('./tasks/watch')
 
 /**
  * Each task required (except watch) returns a promise so you will be able to chain them as you prefer
  */
 
 switch (command) {
-case 'serve':
-  serve()
-  break
 case 'eslint':
 case 'lint':
   eslint()
