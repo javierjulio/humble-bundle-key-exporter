@@ -1,7 +1,7 @@
 {
-  "name": "es6-project-starter-kit",
-  "version": "6.0.0",
-  "description": "Universal Starter Kit to build any javascript ES6 project/library runnable in nodejs and on any browser",
+  "name": "humble-bundle-key-scraper",
+  "version": "1.0.0",
+  "description": "A bookmarklet to scrape the page for your unredeemed Humble Bundle keys into a JSON list.",
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
@@ -16,16 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GianlucaGuarini/es6-project-starter-kit.git"
+    "url": "https://github.com/javierjulio/humble-bundle-key-scraper.git"
   },
   "keywords": [
     "javascript",
-    "bootstrap",
-    "boilerplate",
-    "es6",
-    "es2015",
-    "babel",
-    "starter kit"
+    "humble bundle",
+    "bookmarklet",
+    "keys",
+    "scraper"
   ],
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -47,10 +45,10 @@
     "sinon": "^4.0.1",
     "sinon-chai": "^2.14.0"
   },
-  "author": "Gianluca Guarini (http://gianlucaguarini.com/)",
+  "author": "Javier Julio (http://javierjulio.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GianlucaGuarini/es6-project-starter-kit/issues"
+    "url": "https://github.com/javierjulio/humble-bundle-key-scraper/issues"
   },
-  "homepage": "https://github.com/GianlucaGuarini/es6-project-starter-kit"
+  "homepage": "https://github.com/javierjulio/humble-bundle-key-scraper"
 }
