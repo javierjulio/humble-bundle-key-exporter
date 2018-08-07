@@ -9,9 +9,9 @@ I've been a HumbleBundle supporter since it first started. As you might imagine,
 - Create a bookmark in your browser and name it what you like
 - Edit the address field and [paste the copied contents of dist/bookmarklet-loader.js](https://raw.githubusercontent.com/javierjulio/humble-bundle-key-scraper/master/dist/bookmarklet-loader.js)
 - Go to [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) and click the bookmark
-- A file named humble-bundle-keys.json will download
+- Once parsing is complete, a file named `humble-bundle-keys.json` will be downloaded
 
-Note: the bookmarklet source is written in ES6 using async/await. It is **not** transpiled into ES5. This should work in Safari 10.1+, Chrome 55+, Firefox 52+ and Edge 15+.
+Note: the code is written in **ES6** using async/await. Supported browsers: Safari 10.1+, Chrome 55+, Firefox 52+ and Edge 15+.
 
 ## Development
 
