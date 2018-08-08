@@ -20,14 +20,24 @@ Note: the bookmarklet code is in ES6 only. This will work in Safari 10.1+, Chrom
 
 ### Todo List
 
-- [ ] update tests to run as ES6
-  - https://medium.com/dailyjs/running-mocha-tests-as-native-es6-modules-in-a-browser-882373f2ecb0
+- [ ] create GitHub Page for project
+  - https://getbootstrap.com/docs/4.1/getting-started/build-tools/#tooling-setup
+  - consider trying out Parcel https://parceljs.org
+  - add a searchable data table for my own keys (consider trying Vue.js)
+    - https://datatables.net
+    - http://allenfang.github.io/react-bootstrap-table/start.html
+    - https://bootstrap-vue.js.org/docs/components/table
+- [ ] create project for PlayStation Downloads exporter (Untitled-2.js)
+  - use modal to ask what platform(s) are collected
+  - consider building an app to accept that exported JSON to search
+- [ ] update tests to run as ES6 ([possible example using mocha](https://medium.com/dailyjs/running-mocha-tests-as-native-es6-modules-in-a-browser-882373f2ecb0))
 - [ ] consider updates to JSON output
 - [ ] use visual elements like a progress bar?
   - use ES6 template strings https://github.com/KDuverge/bookmarklet/blob/master/index.js
 
 ### Resources
 
+- https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html
 - https://devhints.io/rollup (cheatsheet)
 - https://air.ghost.io/using-rollup-js-to-create-js-modules/ (testing and usage sections)
 - https://github.com/skyllo/js-rollup-module
