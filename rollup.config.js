@@ -15,9 +15,9 @@ export default [
     input: 'src/index.js',
     plugins: [eslint(), terser({ compress: true })],
     output: {
-      file: 'dist/humble-bundle-key-scraper.js',
+      file: 'dist/humble-bundle-key-exporter.js',
       format: 'iife',
-      name: 'HumbleBundleKeyScraper',
+      name: 'HumbleBundleKeyExporter',
       sourcemap: true
     }
   },

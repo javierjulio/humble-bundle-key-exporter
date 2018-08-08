@@ -1,7 +1,7 @@
 {
-  "name": "humble-bundle-key-scraper",
+  "name": "humble-bundle-key-exporter",
   "version": "1.0.0",
-  "description": "A bookmarklet to scrape [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) for unredeemed keys that once parsed will download that data in a formatted JSON file. This is meant for personal use.",
+  "description": "A bookmarklet to export [your unredeemed HumbleBundle Keys](https://www.humblebundle.com/home/keys) forthat once parsed will download that data in a formatted JSON file. This is meant for personal use.",
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
@@ -15,13 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/javierjulio/humble-bundle-key-scraper.git"
+    "url": "https://github.com/javierjulio/humble-bundle-key-exporter.git"
   },
   "keywords": [
     "javascript",
     "humble bundle",
     "bookmarklet",
     "keys",
+    "export",
+    "exporter",
     "scraper"
   ],
   "devDependencies": {
@@ -42,7 +44,7 @@
   "author": "Javier Julio (http://javierjulio.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/javierjulio/humble-bundle-key-scraper/issues"
+    "url": "https://github.com/javierjulio/humble-bundle-key-exporter/issues"
   },
-  "homepage": "https://github.com/javierjulio/humble-bundle-key-scraper"
+  "homepage": "https://github.com/javierjulio/humble-bundle-key-exporter"
 }

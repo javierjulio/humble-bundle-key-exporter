@@ -1,13 +1,13 @@
-# HumbleBundle Key Scraper
+# HumbleBundle Key Exporter
 
-A bookmarklet to scrape [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) for unredeemed keys that once parsed will download that data in a formatted JSON file. This is meant for personal use.
+A bookmarklet to export [your unredeemed HumbleBundle Keys](https://www.humblebundle.com/home/keys) that will download that data in a formatted JSON file. This is meant for personal use.
 
 I've been a HumbleBundle supporter since it first started. As you might imagine, I have a large number of unredeemed game keys that I won't ever have the time for or am not interested in using. Since the data isn't exportable, this is a tool I created to get that data into an easy to use file so it can be modified and more easily shared with friends.
 
 ## Usage
 
 - Create a bookmark in your browser and name it what you like
-- Edit the address field and [paste the copied contents of dist/bookmarklet-loader.js](https://raw.githubusercontent.com/javierjulio/humble-bundle-key-scraper/master/dist/bookmarklet-loader.js)
+- Edit the address field and [paste the copied contents of dist/bookmarklet-loader.js](https://raw.githubusercontent.com/javierjulio/humble-bundle-key-exporter/master/dist/bookmarklet-loader.js)
 - Go to [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) and click the bookmark
 - Once parsing is complete, a file named `humble-bundle-keys.json` will be downloaded
 
