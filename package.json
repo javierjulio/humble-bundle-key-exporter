@@ -1,7 +1,7 @@
 {
   "name": "humble-bundle-key-scraper",
   "version": "1.0.0",
-  "description": "A bookmarklet to scrape the page for your unredeemed Humble Bundle keys into a JSON list.",
+  "description": "A bookmarklet to scrape [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) for unredeemed keys that once parsed will download that data in a formatted JSON file. This is meant for personal use.",
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
