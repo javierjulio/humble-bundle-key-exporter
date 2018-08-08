@@ -51,8 +51,8 @@ export function run() {
     setFirstPage()
       .then(hideRedeemed)
       .then(getAllKeys)
-      .then((data) => JSON.stringify(data, null, 2))
-      .then((json) => downloadFile(json, 'humble-bundle-keys.json'))
+      .then(data => JSON.stringify(data, null, 2))
+      .then(json => downloadFile(json, 'humble-bundle-keys.json'))
   } else {
     console.log("No eligible page detected.")
   }

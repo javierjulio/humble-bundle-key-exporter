@@ -9,7 +9,7 @@
  * @returns { Promise } - a promise that is resolved by a timer
  */
 export function delayOf(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms))
+  return new Promise(resolve => setTimeout(resolve, ms))
 }
 
 /**
