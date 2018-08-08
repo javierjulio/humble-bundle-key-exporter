@@ -19,7 +19,7 @@ const getKeysForCurrentPage = () => {
   return [...document.querySelectorAll('.unredeemed-keys-table tbody tr')].map(row => {
     return {
       platform: row.querySelector('.platform :first-child').title.trim(),
-      name: row.querySelector('.game-name h4').textContent.trim().replace(/®|™/, ''),
+      name: row.querySelector('.game-name h4').textContent.trim().replace(/®|™/g, ''),
       bundle: row.querySelector('.game-name p').textContent.trim(),
       bundle_url: row.querySelector('.game-name a').href
     }
