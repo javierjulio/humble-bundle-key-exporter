@@ -1,17 +1,10 @@
-var utils = require('./_utils')
+const utils = require('./_utils')
 
-module.exports = function(options) {
+module.exports = function(_options) {
 
-  options = utils.extend({
-    // Folders containing the files we need to check
-    folders: [
-      'tasks',
-      'src',
-      'test'
-    ]
-  }, options)
+  const defaults = { folders: ['tasks', 'src', 'test'] }
+  const options = Object.assign(defaults, _options)
 
-  // Run eslint
   return utils.exec('./node_modules/.bin/eslint', options.folders)
 
 }

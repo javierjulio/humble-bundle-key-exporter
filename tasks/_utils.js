@@ -1,4 +1,3 @@
-
 /**
  * Helper functions shared across all the tasks
  */

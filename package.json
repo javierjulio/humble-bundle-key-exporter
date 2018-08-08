@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node make test",
     "eslint": "node make eslint",
-    "lint": "npm run eslint",
+    "lint": "node make eslint",
     "build": "node make build",
     "watch": "node make watch",
     "default": "node make",
