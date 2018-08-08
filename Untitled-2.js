@@ -41,7 +41,7 @@ const getKeysForCurrentPage = () => {
   return getEligibleItems().map(item => {
     const metadata = getMetadata(item)
     return {
-      name: item.querySelector('.download-list-item__title').textContent.trim().replace(/®|™/, ''),
+      name: item.querySelector('.download-list-item__title').textContent.trim().replace(/®|™/g, ''),
       // type: metadata[0], // Game, Add-On, Theme
       size: formatSize(metadata[1]),
       date: metadata[2],
