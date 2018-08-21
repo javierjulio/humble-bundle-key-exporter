@@ -5,7 +5,7 @@
 
 /**
  * Returns a new Promise that is resolved by a timer for the given milliseconds.
- * @param  { Int } ms - milliseconds
+ * @param  { Number } ms - milliseconds
  * @returns { Promise } - a promise that is resolved by a timer
  */
 export function delayOf(ms) {
@@ -14,7 +14,7 @@ export function delayOf(ms) {
 
 /**
  * Given the data and name, file is downloaded in the browser.
- * @param  { String } data - the file data
+ * @param  { String } data - the data
  * @param  { String } name - the file name
  */
 export function downloadFile(data, name) {
