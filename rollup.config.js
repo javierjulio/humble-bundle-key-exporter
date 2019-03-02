@@ -4,7 +4,7 @@ import { terser } from "rollup-plugin-terser";
 const bookmarkletify = function() {
 	return {
 		name: 'bookmarkletify',
-		transformBundle(code) {
+		renderChunk(code) {
 			return "javascript:" + code;
 		}
 	}
