@@ -5,13 +5,13 @@
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
+    "build": "./node_modules/.bin/rollup -c",
+    "watch": "./node_modules/.bin/rollup -c -w",
+    "eslint": "./node_modules/.bin/eslint .",
     "test": "node make test",
-    "eslint": "node make eslint",
-    "lint": "node make eslint",
-    "build": "node make build",
-    "watch": "node make watch",
-    "default": "node make",
-    "prepare": "node make"
+    "pretest": "npm run build",
+    "default": "npm run build",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
