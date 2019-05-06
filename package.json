@@ -34,7 +34,7 @@
     "karma-coverage": "^1.1.2",
     "karma-mocha": "^1.3.0",
     "mocha": "~6",
-    "puppeteer": "^1.14.0",
+    "puppeteer": "^1.15.0",
     "rollup": "^1.11.3",
     "rollup-plugin-eslint": "^5.0.0",
     "rollup-plugin-terser": "~4.0",
