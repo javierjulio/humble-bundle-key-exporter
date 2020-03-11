@@ -37,7 +37,7 @@
     "puppeteer": "^1.19.0",
     "rollup": "^1.15.6",
     "rollup-plugin-eslint": "^5.1.0",
-    "rollup-plugin-terser": "~5.1",
+    "rollup-plugin-terser": "~5.3",
     "sinon": "^7.5.0",
     "sinon-chai": "^3.5.0"
   },
