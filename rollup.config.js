@@ -2,12 +2,12 @@ import { eslint } from "rollup-plugin-eslint";
 import { terser } from "rollup-plugin-terser";
 
 const bookmarkletify = function() {
-	return {
-		name: 'bookmarkletify',
-		renderChunk(code) {
-			return "javascript:" + code;
-		}
-	}
+  return {
+    name: 'bookmarkletify',
+    renderChunk(code) {
+      return "javascript:" + code;
+    }
+  }
 }
 
 export default [
