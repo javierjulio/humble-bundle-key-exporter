@@ -33,7 +33,7 @@
     "karma-chrome-launcher": "^3.1.0",
     "karma-coverage": "^2.0.2",
     "karma-mocha": "^2.0.1",
-    "mocha": "~7",
+    "mocha": "~8",
     "puppeteer": "^3.3.0",
     "rollup": "^2.16.1",
     "rollup-plugin-eslint": "^7.0.0",
