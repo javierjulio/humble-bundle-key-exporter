@@ -8,7 +8,7 @@
     "build": "./node_modules/.bin/rollup -c",
     "watch": "./node_modules/.bin/rollup -c -w",
     "eslint": "./node_modules/.bin/eslint .",
-    "test": "node make test",
+    "test": "echo 'No tests.'",
     "pretest": "npm run build",
     "default": "npm run build",
     "prepare": "npm run build"
@@ -27,19 +27,10 @@
     "scraper"
   ],
   "devDependencies": {
-    "chai": "^4.3.0",
     "eslint": "^7.19.0",
-    "karma": "^6.1.0",
-    "karma-chrome-launcher": "^3.1.0",
-    "karma-coverage": "^2.0.3",
-    "karma-mocha": "^2.0.1",
-    "mocha": "~8",
-    "puppeteer": "^7.0.4",
     "rollup": "^2.38.5",
     "rollup-plugin-eslint": "^7.0.0",
-    "rollup-plugin-terser": "~7.0",
-    "sinon": "^9.2.4",
-    "sinon-chai": "^3.5.0"
+    "rollup-plugin-terser": "~7.0"
   },
   "author": "Javier Julio (http://javierjulio.com/)",
   "license": "MIT",

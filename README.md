@@ -16,7 +16,7 @@ Note: the bookmarklet code is in ES6 only. This will work in Safari 10.1+, Chrom
 ## Development
 
 - Clone the repository
-- Run `npm install`, once finished will lint and build
+- Run `yarn install`, once finished will lint and build
 
 ### Todo List
 
