@@ -16,28 +16,26 @@ Note: the bookmarklet code is in ES6 only. This will work in Safari 10.1+, Chrom
 ## Development
 
 - Clone the repository
-- Run `yarn install`, once finished will lint and build
+- Run `yarn install` which will also lint and build
+- Make any code changes
+- Run `npm run build`
 
-### Todo List
+### Notes
 
-- [ ] create GitHub Page for project
+- create GitHub Page for project
   - https://help.github.com/articles/user-organization-and-project-pages/
-  - https://getbootstrap.com/docs/4.1/getting-started/build-tools/#tooling-setup
   - add a searchable data table for my own keys (consider trying Vue.js)
     - https://datatables.net
     - https://bootstrap-vue.js.org/docs/components/table/#complete-example
-- [ ] create project for PlayStation Downloads exporter (Untitled-2.js)
-  - use modal to ask what platform(s) are collected
-  - consider building an app to accept that exported JSON to search
-- [ ] update tests to run as ES6 ([possible example using mocha](https://medium.com/dailyjs/running-mocha-tests-as-native-es6-modules-in-a-browser-882373f2ecb0))
+- add integration tests with stubbed page content
   - [use Cypress for E2E](https://www.cypress.io/blog/2019/11/20/drastically-simplify-your-testing-with-cypress-github-action/)
   - [use Playwright for E2E](https://medium.com/@rogger.fernandes10/e2e-tests-integrating-microsoft-playwright-with-mocha-and-chai-cb37016b63c3) and [CI](https://github.com/microsoft/playwright-github-action)
-  - also for async: https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d
-- [ ] consider updates to JSON output
-- [ ] use visual elements like a progress bar?
+- consider updates to JSON output
+- display an indeterminate progress bar while parsing
 
 ### Resources
 
+- https://getbootstrap.com/docs/4.1/getting-started/build-tools/#tooling-setup
 - https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html
 - https://devhints.io/rollup (cheatsheet)
 - https://air.ghost.io/using-rollup-js-to-create-js-modules/ (testing and usage sections)
