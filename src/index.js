@@ -47,7 +47,7 @@ const getAllKeys = async () => {
 }
 
 export function run() {
-  if (window.location.pathname === '/home/keys') {
+  if (window.location.pathname.includes('/home/keys')) {
     setFirstPage()
       .then(hideRedeemed)
       .then(getAllKeys)
