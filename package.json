@@ -32,7 +32,7 @@
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-terser": "~7.0"
   },
-  "author": "Javier Julio (http://javierjulio.com/)",
+  "author": "Javier Julio (https://javierjulio.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/javierjulio/humble-bundle-key-exporter/issues"
