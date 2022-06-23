@@ -16,7 +16,8 @@ const setFirstPage = async () => {
 }
 
 const getKeysForCurrentPage = () => {
-  return [...document.querySelectorAll('.unredeemed-keys-table tbody tr')].map(row => {
+  // Exclude special rows like Humble Choice "Make My Choices" row/button
+  return [...document.querySelectorAll('.unredeemed-keys-table tbody tr[class=""]')].map(row => {
     return {
       platform: row.querySelector('.platform :first-child').title.trim(),
       name: row.querySelector('.game-name h4').textContent.trim().replace(/®|™/g, ''),
