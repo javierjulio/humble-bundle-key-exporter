@@ -4,6 +4,7 @@
   "description": "A bookmarklet to export [your unredeemed HumbleBundle Keys](https://www.humblebundle.com/home/keys) forthat once parsed will download that data in a formatted JSON file. This is meant for personal use.",
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
+  "type": "module",
   "scripts": {
     "build": "./node_modules/.bin/rollup -c",
     "watch": "./node_modules/.bin/rollup -c -w",
@@ -28,7 +29,7 @@
   ],
   "devDependencies": {
     "eslint": "^8.28.0",
-    "rollup": "^2.79.1",
+    "rollup": "^3.5.1",
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-terser": "~7.0"
   },
