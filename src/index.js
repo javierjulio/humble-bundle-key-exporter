@@ -67,7 +67,7 @@ const getAllKeys = async () => {
   }
 }
 
-export function run() {
+const run = () => {
   if (window.location.pathname.includes('/home/keys')) {
     setFirstPage()
       .then(hideRedeemed)
@@ -78,3 +78,5 @@ export function run() {
     console.log("No eligible page detected.")
   }
 }
+
+export { run, hasNextPage, getKeysForCurrentPage }
