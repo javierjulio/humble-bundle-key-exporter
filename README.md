@@ -35,10 +35,5 @@ Note: the bookmarklet code is in ES6 only. This will work in Safari 10.1+, Chrom
 
 ### Resources
 
-- https://getbootstrap.com/docs/4.1/getting-started/build-tools/#tooling-setup
-- https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html
 - https://devhints.io/rollup (cheatsheet)
-- https://air.ghost.io/using-rollup-js-to-create-js-modules/ (testing and usage sections)
-- https://github.com/skyllo/js-rollup-module
-- https://github.com/rollup/rollup-starter-lib
 - https://github.com/KDuverge/bookmarklet/blob/master/index.js
