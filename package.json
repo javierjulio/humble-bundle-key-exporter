@@ -34,7 +34,7 @@
     "rollup": "^3.9.0",
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-terser": "~7.0",
-    "vitest": "^0.25.8"
+    "vitest": "^0.26.3"
   },
   "author": "Javier Julio (https://javierjulio.com/)",
   "license": "MIT",
