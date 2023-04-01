@@ -29,7 +29,7 @@
     "scraper"
   ],
   "devDependencies": {
-    "eslint": "^8.35.0",
+    "eslint": "^8.37.0",
     "jsdom": "^21.1.1",
     "rollup": "^3.20.2",
     "rollup-plugin-eslint": "^7.0.0",
