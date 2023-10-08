@@ -1,19 +1,21 @@
 # https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-name: CI
+name: Tests
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
-    name: Node ${{ matrix.node-version }}
+        node-version: [18.x, 20.x]
+    name: Run tests on Node ${{ matrix.node-version }}
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
