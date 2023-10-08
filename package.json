@@ -29,11 +29,11 @@
     "scraper"
   ],
   "devDependencies": {
+    "@rollup/plugin-eslint": "^9.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
     "eslint": "^8.46.0",
     "jsdom": "^22.1.0",
-    "rollup": "^3.27.0",
-    "rollup-plugin-eslint": "^7.0.0",
-    "rollup-plugin-terser": "~7.0",
+    "rollup": "^4.0.2",
     "vitest": "^0.34.1"
   },
   "author": "Javier Julio (https://javierjulio.com/)",

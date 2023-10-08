@@ -1,5 +1,5 @@
-import { eslint } from "rollup-plugin-eslint";
-import { terser } from "rollup-plugin-terser";
+import eslint from "@rollup/plugin-eslint";
+import terser from "@rollup/plugin-terser";
 
 const bookmarkletify = function() {
   return {
