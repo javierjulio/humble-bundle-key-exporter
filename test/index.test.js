@@ -13,7 +13,7 @@ describe("downloadFile", async () => {
   })
 
   it("completes", () => {
-    const mock = vi.fn((a) => "")
+    const mock = vi.fn(() => "")
     vi.stubGlobal('URL', { createObjectURL: mock })
 
     const data = [ { a: 1 } ]

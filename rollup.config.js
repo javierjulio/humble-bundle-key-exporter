@@ -1,4 +1,3 @@
-import eslint from "@rollup/plugin-eslint";
 import terser from "@rollup/plugin-terser";
 
 const bookmarkletify = function() {
@@ -13,7 +12,7 @@ const bookmarkletify = function() {
 export default [
   {
     input: 'src/index.js',
-    plugins: [eslint(), terser({ compress: true })],
+    plugins: [terser({ compress: true })],
     output: {
       file: 'dist/humble-bundle-key-exporter.js',
       format: 'iife',
@@ -23,7 +22,7 @@ export default [
   },
   {
     input: 'src/loader.js',
-    plugins: [eslint(), terser(), bookmarkletify()],
+    plugins: [terser(), bookmarkletify()],
     output: {
       file: 'dist/bookmarklet-loader.js',
       format: 'iife'
