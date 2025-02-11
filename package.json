@@ -33,7 +33,7 @@
     "eslint": "^9.19.0",
     "jsdom": "^26.0.0",
     "rollup": "^4.34.0",
-    "vitest": "^3.0.4"
+    "vitest": "^3.0.5"
   },
   "author": "Javier Julio (https://javierjulio.com/)",
   "license": "MIT",
