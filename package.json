@@ -30,9 +30,9 @@
   ],
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
-    "eslint": "^9.30.0",
+    "eslint": "^9.32.0",
     "jsdom": "^26.1.0",
-    "rollup": "^4.44.1",
+    "rollup": "^4.46.2",
     "vitest": "^3.2.4"
   },
   "author": "Javier Julio (https://javierjulio.com/)",
