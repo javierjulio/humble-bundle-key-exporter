@@ -32,8 +32,8 @@
     "@rollup/plugin-terser": "^0.4.4",
     "eslint": "^9.39.2",
     "jsdom": "^27.4.0",
-    "rollup": "^4.54.0",
-    "vitest": "^4.0.16"
+    "rollup": "^4.57.1",
+    "vitest": "^4.0.18"
   },
   "author": "Javier Julio (https://javierjulio.com/)",
   "license": "MIT",
