@@ -30,8 +30,8 @@
   ],
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
-    "eslint": "^9.39.2",
-    "jsdom": "^27.4.0",
+    "eslint": "^10.0.2",
+    "jsdom": "^28.1.0",
     "rollup": "^4.59.0",
     "vitest": "^4.0.18"
   },
