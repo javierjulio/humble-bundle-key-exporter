@@ -29,11 +29,11 @@
     "scraper"
   ],
   "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
-    "eslint": "^10.0.2",
-    "jsdom": "^28.1.0",
-    "rollup": "^4.59.0",
-    "vitest": "^4.0.18"
+    "@rollup/plugin-terser": "^1.0.0",
+    "eslint": "^10.1.0",
+    "jsdom": "^29.0.1",
+    "rollup": "^4.60.1",
+    "vitest": "^4.1.2"
   },
   "author": "Javier Julio (https://javierjulio.com/)",
   "license": "MIT",
