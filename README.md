@@ -1,8 +1,8 @@
 # HumbleBundle Key Exporter
 
-A bookmarklet to export [your unredeemed HumbleBundle Keys](https://www.humblebundle.com/home/keys) that will download that data in a formatted JSON file. This is meant for personal use.
+A bookmarklet to export [your unredeemed HumbleBundle Keys](https://www.humblebundle.com/home/keys) games data into a formatted JSON file for download. The bookmarklet will **not** trigger key redemption or include the actual keys in the JSON. That is intentional. This is meant for personal use.
 
-I've been a HumbleBundle supporter since it first started. As you might imagine, I have a large number of unredeemed game keys that I won't ever have the time for or am not interested in using. Since the data isn't exportable, this is a tool I created to get that data into an easy to use file so it can be modified and more easily shared with friends.
+I've been a HumbleBundle supporter since it first started. Since I have many unredeemed game keys that I won't have any interest in playing or in some cases I already own, I built this tool to export my data into an easy to use file that I can then share with friends to gift them games they'd want.
 
 ## Usage
 
@@ -11,29 +11,18 @@ I've been a HumbleBundle supporter since it first started. As you might imagine,
 - Go to [your HumbleBundle Keys page](https://www.humblebundle.com/home/keys) and click the bookmark
 - Once parsing is complete, a file named `humble-bundle-keys.json` will be downloaded
 
-Note: the bookmarklet code is in ES6 only. This will work in Safari 10.1+, Chrome 55+, Firefox 52+ and Edge 15+.
-
 ## Development
 
 - Clone the repository
-- Run `yarn install` which will also lint and build
-- Make any code changes
-- Run `npm run build`
+- Run `npm install` which will also lint and build
+- `npm run build` after updating code
+- `npm run eslint` to run linter
+- `npm run watch`
 
-### Notes
+### Notes & Resources
 
-- create GitHub Page for project
-  - https://help.github.com/articles/user-organization-and-project-pages/
-  - add a searchable data table for my own keys (consider trying Vue.js)
-    - https://datatables.net
-    - https://bootstrap-vue.js.org/docs/components/table/#complete-example
-- add integration tests with stubbed page content
-  - [use Cypress for E2E](https://www.cypress.io/blog/2019/11/20/drastically-simplify-your-testing-with-cypress-github-action/)
-  - [use Playwright for E2E](https://medium.com/@rogger.fernandes10/e2e-tests-integrating-microsoft-playwright-with-mocha-and-chai-cb37016b63c3) and [CI](https://github.com/microsoft/playwright-github-action)
-- consider updates to JSON output
+- add searchable data table for keys https://datatables.net
 - display an indeterminate progress bar while parsing
-
-### Resources
-
-- https://devhints.io/rollup (cheatsheet)
+- add integration tests using Playwright with stubbed page content
+- Rollup cheatsheet https://devhints.io/rollup
 - https://github.com/KDuverge/bookmarklet/blob/master/index.js
