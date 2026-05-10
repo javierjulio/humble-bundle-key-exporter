@@ -1,7 +1,8 @@
 import globals from "globals";
+import { defineConfig } from "eslint/config";
 import js from "@eslint/js";
 
-export default [
+export default defineConfig([
   {
     // as the sole object key, this ignores globally
     ignores: [
@@ -13,7 +14,9 @@ export default [
     ]
   },
   {
-    ...js.configs.recommended,
+    files: ["**/*.{js,mjs,cjs}"],
+    plugins: { js },
+    extends: ["js/recommended"],
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -21,4 +24,4 @@ export default [
       }
     }
   }
-];
+]);
